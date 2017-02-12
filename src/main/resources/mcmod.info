@@ -1,0 +1,16 @@
+[
+{
+  "modid": "meeperzplus",
+  "name": "Meeperz+",
+  "description": "hi",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Creepinson101"],
+  "credits": "Creepinson101, Minecraft Forge",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
