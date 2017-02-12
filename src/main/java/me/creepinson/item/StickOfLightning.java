@@ -2,9 +2,9 @@ package me.creepinson.item;
 
 import net.minecraft.creativetab.CreativeTabs;
 
-public class StickOfFire extends ModItems{
+public class StickOfLightning extends ModItems{
 
-	public StickOfFire(String name, CreativeTabs tab) {
+	public StickOfLightning(String name, CreativeTabs tab) {
 		super(name, tab);
 		
 	}

@@ -2,9 +2,10 @@ package me.creepinson.Main;
 
 
 import jline.internal.Log;
+import me.creepinson.handlers.EventHandlerMOD;
+import me.creepinson.handlers.ItemHandler;
 import me.creepinson.item.FireCore;
 import me.creepinson.item.FireEssence;
-import me.creepinson.item.ItemHandler;
 import me.creepinson.lib.IProxy;
 import me.creepinson.lib.RefStrings;
 import net.minecraft.block.Block;
@@ -33,10 +34,7 @@ public static IProxy proxy;
     {
  
 		proxy.preInit();
-		ItemHandler.init();
-		ItemHandler.register();
-
-    	
+	
     }
     @EventHandler
     public void init(FMLInitializationEvent event)
@@ -44,6 +42,7 @@ public static IProxy proxy;
     	 
 		proxy.init();
     	MinecraftForge.EVENT_BUS.register(new EventHandlerMOD());
+    	
     	Log.info("MeepersPlus Mod Initialized...");
     }
     @EventHandler

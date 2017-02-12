@@ -1,4 +1,4 @@
-package me.creepinson.Main;
+package me.creepinson.handlers;
 
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.block.Block;
